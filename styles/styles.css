@@ -1,6 +1,54 @@
+/* VARS */
+
+:root {
+    --logo-color: #1423FF;
+}
+
+/* GLOBAL */
+
+html {
+    padding: 0 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* FONTS */
+
 h1 {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
-    font-weight: bold;
+    font-weight: 600;
     font-style: normal;
+    font-size: 32px;
+    line-height: normal;
+}
+
+/* STATE */
+
+.hideInMobile {
+    display: none;
+}
+
+.hideInDesktop {
+    display: flex;
+}
+
+/* ELEMENTS */
+
+.logo {
+    color: var(--logo-color);
+}
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 481px){
+    .logo {
+        color: orange;
+    }
 }
