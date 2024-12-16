@@ -2,7 +2,7 @@
   {
     "title": "City Cycle Adventure",
     "time": "Tuesday 10-11 am",
-    "image": "/resources/images/intro-maint.jpg"
+    "image": "./resources/images/intro-maint.jpg"
   },
   {
     "title": "Mountain Biking Challenge",
