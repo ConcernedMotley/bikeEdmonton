@@ -48,7 +48,7 @@ html {
     flex-wrap: wrap;
 }
 
-.content-horizontal {
+.footer-flex-content {
     display: flex;
     height: fit-content;
     justify-content: space-between;
@@ -64,6 +64,22 @@ html {
 #footer-spacing > .footer-gap-style {
     justify-content: space-between;
     gap: 24px;
+}
+
+#headNav {
+    display: flex;
+    gap: 24px
+}
+
+.flex-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-content p {
+    width: 60ch;
+    border-left: #333 solid 2px;
+    padding-left: 24px;
 }
 
 /* TYPOGRAPHY */
@@ -200,6 +216,10 @@ footer {
     background: url(../resources/images/bike-edmonton-hero.jpg) lightgray 50% / cover no-repeat;
 }
 
+.support-page .hero-img {
+    background: url(../resources/images/support-hero.jpg) lightgray 50% / cover no-repeat;
+}
+
 .event-card {
     display: flex;
     flex-direction: column;
@@ -263,8 +283,29 @@ footer {
         display: none;
     }
 
+    #headNav {
+        display: none;
+    }
+
+    .hideInDesktop{
+        display: flex;
+    }
+
     .content-side-padding {
         padding: 8px 24px;
+    }
+
+    .footer-flex-content {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .footer-underline {
+        border-bottom: none;
+    }
+
+    .footer-gap-style {
+        gap: 8px;
     }
 
     .hero-img {
@@ -281,6 +322,12 @@ footer {
         font-style: normal;
         font-weight: 600;
         line-height: normal;
+    }
+
+    .flex-content p {
+        border-left: none;
+        padding-left: 0;
+        width: 40ch;
     }
     
 }
