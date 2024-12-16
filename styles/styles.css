@@ -18,9 +18,52 @@
 }
 
 html {
-    /* margin: 0 80px; */
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+/* LAYOUT */
+
+.content-side-padding {
+    padding: 24px 80px;
+}
+
+.events-grid {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    row-gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.testimonies-grid {
+    display: flex;
+    padding: 16px 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+    row-gap: 24px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.content-horizontal {
+    display: flex;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+#nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: max-content;
+    gap: 20px;
+}
+
+#footer-spacing > .footer-gap-style {
+    justify-content: space-between;
+    gap: 24px;
 }
 
 /* TYPOGRAPHY */
@@ -51,12 +94,16 @@ h4 {
     line-height: normal;
 }
 
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
 .bold-body {
     font-family: "Roboto Condensed", sans-serif;
     font-size: 24px;
-    font-style: normal;
     font-weight: 600;
-    line-height: normal;
 }
 
 .bold-body-xl {
@@ -83,14 +130,54 @@ h4 {
     line-height: normal;
 }
 
-/* STATE */
-
-.hideInMobile {
-    display: none;
+#nav-links a {
+    font-weight: 300;
 }
 
-.hideInDesktop {
+/* NATIVE ELEMENT STYLE */
+
+nav {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    all: unset;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    color: white;
+    background: var(--fill-blue);
+    padding: 4px 16px;
+    
+    /* FONT */
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+}
+
+footer {
+    background: var(--footer-fill);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.section-filled {
+    background: var(--fill-blue);
 }
 
 /* ELEMENTS */
@@ -134,89 +221,66 @@ h4 {
     align-items: flex-end;
     gap: 10px;
     background: var(--testimoni-card);
+    width: 30%;
+    height: fit-content;
 }
 
 .testimonies-card img {
-    width: 467px;
+    width: 30%;
     height: 334px;
 }
 
-/* NATIVE ELEMENT STYLE */
-
-nav {
-    display: flex; 
-    justify-content: space-between; 
-    align-items: center;
+.testimonies-card .small-body {
+    width: 45ch;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
+.footer-underline {
+    border-bottom: white 1px solid;
+    text-transform: uppercase;
 }
 
-button {
-    all: unset;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 5px;
-    color: white;
-    background: var(--fill-blue);
-    padding: 4px 16px;
-    
-    /* FONT */
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-
-}
-
-footer {
-    background: var(--footer-fill);
+.footer-gap-style {
     display: flex;
     flex-direction: column;
-    color: white;
-}
-
-.section-filled {
-    background: var(--fill-blue);
-}
-
-
-/* LAYOUT */
-
-.content-side-padding {
-    padding: 24px 80px;
-}
-
-.events-grid {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    align-content: center;
-    row-gap: 10px;
-    align-self: stretch;
-    flex-wrap: wrap;
 }
 
-.testimonies-grid {
+/* STATE */
+
+.hideInMobile {
     display: flex;
-    padding: 16px 0px;
-    justify-content: space-between;
-    align-items: flex-start;
-    align-content: flex-start;
-    row-gap: 24px;
-    align-self: stretch;
-    flex-wrap: wrap;
+}
+
+.hideInDesktop {
+    display: none;
 }
 
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 480px){
-    .logo {
-        color: var(--test-1);
+    
+    .hideInMobile {
+        display: none;
     }
+
+    .content-side-padding {
+        padding: 8px 24px;
+    }
+
+    .hero-img {
+        display: flex;
+        width: 432px;
+        height: 265px;
+        justify-content: flex-end;
+        align-items: flex-end;
+        gap: 10px;
+    }
+
+    h3,h4 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+    
 }

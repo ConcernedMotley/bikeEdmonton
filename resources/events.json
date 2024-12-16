@@ -2,41 +2,41 @@
   {
     "title": "City Cycle Adventure",
     "time": "Tuesday 10-11 am",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Mountain Biking Challenge",
     "time": "Wednesday 8-9 am",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Family Fun Ride",
-    "time": "Friday 9:30-10:30 am",
-    "image": "https://placeholder.com/300x200"
+    "time": "Friday 9-10 am",
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Night Cycling Tour",
     "time": "Saturday 7-8 pm",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Intro to Maintenance",
     "time": "Thursday 2-3 pm",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Greenway Exploration Ride",
     "time": "Monday 4-5 pm",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Cycling Safety Seminar",
     "time": "Tuesday 1-2 pm",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   },
   {
     "title": "Trail Cleanup Ride",
     "time": "Sunday 3-4 pm",
-    "image": "https://placeholder.com/300x200"
+    "image": "/resources/images/intro-maint.jpg"
   }
 ]
