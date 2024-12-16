@@ -23,6 +23,12 @@ html {
 
 /* LAYOUT */
 
+.column-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .content-side-padding {
     padding: 24px 80px;
 }
@@ -76,11 +82,32 @@ html {
     justify-content: space-between;
 }
 
-.flex-content p {
+.home-page .flex-content p {
     width: 60ch;
     border-left: #333 solid 2px;
     padding-left: 24px;
 }
+
+.position-relative {
+    position: relative;
+}
+
+#donation-buttons .flex-content button {
+    width: 4ch;
+}
+
+#donate-action {
+    align-items: center;
+}
+
+#donate-action button {
+    width: 100%;
+}
+
+#donate-action input {
+    width: 100%;
+}
+
 
 /* TYPOGRAPHY */
 
@@ -172,7 +199,8 @@ button {
     border-radius: 5px;
     color: white;
     background: var(--fill-blue);
-    padding: 4px 16px;
+    padding: 4px 8px;
+    width: fit-content;
     
     /* FONT */
     font-family: "Roboto Condensed", sans-serif;
@@ -189,6 +217,12 @@ footer {
     flex-direction: column;
     color: white;
     justify-content: space-between;
+    gap: 16px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
     gap: 16px;
 }
 
@@ -263,6 +297,29 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.donate-card {
+
+    top: 10%;
+    right: 80px;
+    position: fixed;
+
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px 24px;
+    justify-items: flex-start;
+    height: fit-content;
+    width: fit-content;
+
+    border-radius: 20px;
+    box-shadow: 0 5px 30px 1px black;
+    background: white;
+}
+
+.donate-card p {
+    width: 36ch;
 }
 
 /* STATE */
