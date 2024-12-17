@@ -13,6 +13,8 @@
 
 @media only screen and (max-width: 480px){
     
+    /* STATES */
+
     .hideInMobile {
         display: none;
     }
@@ -24,7 +26,21 @@
     .hideInDesktop{
         display: flex;
     }
+    
+    /* TYPOGRAPHY */
 
+    h1,h2,h3,h4 {
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+
+    /* LAYOUT */
+    
+    section {
+        background: none;
+    }
     .content-side-padding {
         padding: 8px 24px;
     }
@@ -60,16 +76,6 @@
         object-fit: contain;
     }
 
-    section {
-        background: none;
-    }
-
-    h1,h2,h3,h4 {
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
 
     .home-page .flex-content p {
         border-left: none;
