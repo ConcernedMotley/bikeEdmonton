@@ -84,6 +84,8 @@
         width: 30ch;
         padding: 8px;
         border-radius: 10px;
+        color: white;
+        background: var(--fill-blue);
     }
 
     #testimonies-text {
