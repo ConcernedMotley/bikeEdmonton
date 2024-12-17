@@ -83,6 +83,11 @@ html {
     justify-content: space-between;
 }
 
+.sticky-flex-content {
+    justify-content: start;
+    gap: 16px;
+}
+
 .home-page .flex-content p {
     width: 60ch;
     border-left: #333 solid 2px;
@@ -119,12 +124,11 @@ html {
 
 #programs-grid {
     
-    /* padding: 16px 80px; */
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 16px;
+    gap: 8px;
     align-self: stretch;
     flex-wrap: wrap;
 }
@@ -136,7 +140,17 @@ html {
 }
 
 .programs-grid {
-    padding: 16px 80px;
+    padding: 16px;
+    width: 80%;
+}
+
+#filters {
+    display: flex;
+    width: 20%;
+}
+
+#filter-title {
+    width: 100%;
 }
 
 /* NATIVE ELEMENT STYLE */

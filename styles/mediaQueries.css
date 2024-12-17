@@ -70,7 +70,7 @@
     .home-page .flex-content p {
         border-left: none;
         padding-left: 0;
-        width: 50ch;
+        width: 35ch;
     }
 
     .testimonies-grid {
@@ -97,6 +97,10 @@
         white-space: normal;
         line-height: 1.5;
 
+    }
+
+    #filters {
+        display: none;
     }
     
 }

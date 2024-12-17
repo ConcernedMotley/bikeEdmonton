@@ -45,13 +45,91 @@
         </div>
         
         <!-- EVENTS VIEW -->
-        <div>
+        <div class="flex-content content-side-padding">
 
             <!-- EVENTS GRID -->
             <div id="programs-grid" class="programs-grid"></div>
 
             <!-- FILTERS -->
-            <div></div>
+            <div class="column-flex hideInMobile" id="filters">
+                <div class="flex-content" id="filter-title">
+                    <h5 class="bold-body-xl">Filters</h5>
+                    <div >Clear All</div>
+                </div>
+
+                <div class="column-flex">
+                    <h5 class="bold-body-xl">Day</h5>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="monday">
+                        <div class="monday">Monday</div>
+                    </div>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="tuesday">
+                        <div class="tuesday">Tuesday</div>
+                    </div>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="wednesday">
+                        <div class="wednesday">Wednesday</div>
+                    </div>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="thursday">
+                        <div class="thursday">Thursday</div>
+                    </div>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="friday">
+                        <div class="friday">Friday</div>
+                    </div>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="saturday">
+                        <div class="saturday">Saturday</div>
+                    </div>
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="sunday">
+                        <div class="sunday">Sunday</div>
+                    </div>
+                </div>
+                
+                <div class="column-flex">
+                    <h5 class="bold-body-xl">Time</h5>
+    
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="morning">
+                        <div class="morning">Morning</div>
+                    </div>
+    
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="noon">
+                        <div class="noon">Noon</div>
+                    </div>
+    
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="evening">
+                        <div class="evening">Evening</div>
+                    </div>
+    
+                </div>
+
+                <div class="column-flex">
+                    <h5 class="bold-body-xl">Type</h5>
+    
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="info">
+                        <div class="info">info Session</div>
+                    </div>
+    
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="workshop">
+                        <div class="workshop">Workshop</div>
+                    </div>
+    
+                    <div class="flex-content sticky-flex-content">
+                        <input type="checkbox" id="community-ride">
+                        <div class="community-ride">Community Ride</div>
+                    </div>
+    
+                </div>
+
+            </div>
 
         </div>
 
@@ -70,11 +148,11 @@
         
         <div class="footer-flex-content">
             <div class="footer-gap-style">
-                <h3>Bike Edmonton</h3>
+                <h3><a href="index.html">Bike Edmonton</a></h3>
                 <p>bikeedmonton.com © 2024</p>
             </div>
             <div class="footer-gap-style">
-                <div class="footer-underline hideInMobile"><p><a href="index.html">bike edmonton</a><p></div>
+                <div class="footer-underline hideInMobile"><p>bike edmonton<p></div>
                 <div id="nav-links">
                     <a href="programs.html">Programs</a>
                     <a>Resources</a>
