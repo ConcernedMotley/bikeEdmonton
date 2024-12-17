@@ -108,75 +108,6 @@ html {
     width: 100%;
 }
 
-
-/* TYPOGRAPHY */
-
-h1 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 72px;
-    line-height: normal;
-}
-
-h3 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 56px;
-    line-height: normal;
-}
-
-h4 {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 48px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-p {
-    font-family: "Roboto Condensed", sans-serif;
-    font-style: normal;
-    line-height: normal;
-}
-
-.bold-body {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 24px;
-    font-weight: 600;
-}
-
-.bold-body-xl {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 600;
-    line-height: normal;
-}
-
-.body-reg {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.small-body {
-    font-family: "Roboto Condensed", sans-serif;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-#nav-links a {
-    font-weight: 300;
-}
-
 /* NATIVE ELEMENT STYLE */
 
 nav {
@@ -280,8 +211,11 @@ section {
 }
 
 .testimonies-card img {
-    width: 30%;
+    object-fit: cover;
+    width: 100%;
     height: 334px;
+    overflow: hidden;
+    flex-shrink: 0;
 }
 
 .testimonies-card .small-body {
@@ -301,7 +235,7 @@ section {
 
 .donate-card {
 
-    top: 10%;
+    top: 15%;
     right: 80px;
     position: fixed;
 
@@ -330,61 +264,4 @@ section {
 
 .hideInDesktop {
     display: none;
-}
-
-/* MEDIA QUERY */
-
-@media only screen and (max-width: 480px){
-    
-    .hideInMobile {
-        display: none;
-    }
-
-    #headNav {
-        display: none;
-    }
-
-    .hideInDesktop{
-        display: flex;
-    }
-
-    .content-side-padding {
-        padding: 8px 24px;
-    }
-
-    .footer-flex-content {
-        flex-direction: column;
-        gap: 24px;
-    }
-
-    .footer-underline {
-        border-bottom: none;
-    }
-
-    .footer-gap-style {
-        gap: 8px;
-    }
-
-    .hero-img {
-        display: flex;
-        width: 432px;
-        height: 265px;
-        justify-content: flex-end;
-        align-items: flex-end;
-        gap: 10px;
-    }
-
-    h3,h4 {
-        font-size: 32px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-    }
-
-    .flex-content p {
-        border-left: none;
-        padding-left: 0;
-        width: 40ch;
-    }
-    
 }

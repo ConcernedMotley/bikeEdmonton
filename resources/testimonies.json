@@ -1,31 +1,31 @@
 [
   {
-    "image": "#",
+    "image": "./resources/images/sarah.jpg",
     "text": "Bike Edmonton helped me fix my bike and showed me maintenance.",
     "author": "Sarah"
   },
   {
-    "image": "#",
+    "image": "./resources/images/mark.jpg",
     "text": "The workshops at Bike Edmonton gave me confidence on the road.",
     "author": "Mark"
   },
   {
-    "image": "#",
+    "image": "./resources/images/emily.jpg",
     "text": "Thanks to Bike Edmonton, I quickly learned to fix a flat tire.",
     "author": "Emily"
   },
   {
-    "image": "#",
+    "image": "./resources/images/jake.jpg",
     "text": "The team at Bike Edmonton made bike maintenance easy to learn.",
     "author": "Jake"
   },
   {
-    "image": "#",
+    "image": "./resources/images/lisa.jpg",
     "text": "I never knew bike maintenance could be so fun and informative.",
     "author": "Lisa"
   },
   {
-    "image": "#",
+    "image": "./resources/images/john.jpg",
     "text": "Bike Edmonton's classes made me confident in bike repairs now.",
     "author": "John"
   }

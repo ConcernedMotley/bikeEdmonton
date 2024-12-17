@@ -1,0 +1,67 @@
+/* TYPOGRAPHY */
+
+h1 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 72px;
+    line-height: normal;
+}
+
+h3 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 56px;
+    line-height: normal;
+}
+
+h4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+p {
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    line-height: normal;
+}
+
+.bold-body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.bold-body-xl {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.body-reg {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.small-body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#nav-links a {
+    font-weight: 300;
+}
