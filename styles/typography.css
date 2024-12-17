@@ -1,11 +1,28 @@
 /* TYPOGRAPHY */
 
+.large-xl {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
 h1 {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
     font-size: 72px;
+    line-height: normal;
+}
+
+h2 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 64px;
     line-height: normal;
 }
 
@@ -28,7 +45,9 @@ h4 {
 
 p {
     font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
     font-style: normal;
+    font-weight: 400;
     line-height: normal;
 }
 
@@ -64,4 +83,12 @@ p {
 
 #nav-links a {
     font-weight: 300;
+}
+
+.bullet-points li {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
