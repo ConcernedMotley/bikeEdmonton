@@ -50,12 +50,14 @@
     }
 
     .hero-img {
-        display: flex;
-        width: 432px;
+        width: 100%;
+        position: relative;
+        border-radius: 20px;
+        max-width: 100%;
+        overflow: hidden;
         height: 265px;
-        justify-content: flex-end;
-        align-items: flex-end;
-        gap: 10px;
+        flex-shrink: 0;
+        object-fit: contain;
     }
 
     h1,h2,h3,h4 {
@@ -69,6 +71,30 @@
         border-left: none;
         padding-left: 0;
         width: 50ch;
+    }
+
+    .testimonies-grid {
+        overflow: auto;
+        white-space: nowrap;
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+
+    .testimonies-card {
+        width: 30ch;
+        padding: 8px;
+        border-radius: 10px;
+    }
+
+    #testimonies-text {
+        width: 40ch;
+        max-width: 20ch;
+        height: 12ch;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        white-space: normal;
+        line-height: 1.5;
+
     }
     
 }

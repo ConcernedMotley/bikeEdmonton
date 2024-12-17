@@ -9,7 +9,7 @@ fetch("./resources/testimonies.json") // Ensure correct path to your JSON file
         `
         <div class="testimonies-card">
             <img src="${testimony.image}" alt="#" class="hideInMobile">
-            <p class="small-body">${testimony.text}</p>
+            <p class="small-body" id="testimonies-text">${testimony.text}</p>
             <p class="bold-body">-${testimony.author}</p>
         </div>
         `
