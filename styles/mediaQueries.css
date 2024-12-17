@@ -60,6 +60,10 @@
         object-fit: contain;
     }
 
+    section {
+        background: none;
+    }
+
     h1,h2,h3,h4 {
         font-size: 32px;
         font-style: normal;
@@ -102,5 +106,57 @@
     #filters {
         display: none;
     }
-    
+
+    #programs-grid {
+        width: 100%;
+    }
+
+    .programs-grid .programs-card{
+        display: flex;
+        border: none;
+        height: 100px;
+        background: var(--events-mobile-background);
+        justify-content: space-between;
+        gap: 8px;
+        border-radius: 10px;
+        padding: 8px 16px;
+    }
+
+    .programs-card-image img {
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .programs-card-content {
+        width: 40ch;
+        background: none;
+        flex-direction: column-reverse;
+    }
+
+    .section-filled {
+        background: none;
+    }
+
+    .event-card {
+        flex-direction: row;
+        gap: 16px;
+        height: 100px;
+        width: 100%;
+        background: var(--events-mobile-background);
+        border-radius: 10px;
+        padding: 8px 16px;
+    }
+
+    .event-card img {
+        border-radius: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .event-image {
+        width: 30%;
+    }
+   
+
 }

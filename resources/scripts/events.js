@@ -8,9 +8,11 @@ fetch("./resources/events.json") // Ensure correct path
         "beforeend",
         `
         <div class="event-card">
-            <img src="${event.image}" alt="#">
-            <p class="bold-body">${event.title}</p>
-            <p class="body-reg">${event.time}</p>
+            <div class="event-image"><img src="${event.image}" alt="#"></div>
+            <div>
+              <p class="bold-body">${event.title}</p>
+              <p class="body-reg">${event.time}</p>
+            </div>
         </div>
         `
       ); // Replace content dynamically
